@@ -1,8 +1,8 @@
 # SOLID principles (Coffee Maker)
 
-This is my implementation of the CoffeeMaker Mark IV as proposed by Robert C Martin the originator of the SOLID principles.
+My implementation of the CoffeeMaker Mark IV following SOLID principles by Robert C Martin.
 
-I use the Subscriber pattern to model the HardwareApi events, it is now a first class interface in .NET FCL.  
-Consequently the client implemntation uses Reactive Extensions to publish/subscribe to the hardware event model.
+I think the Subscriber pattern fits nicely in modelling the HardwareApi events of the CoffeeMaker machinery.  Subscriber is now a first class interface in .NET FCL which is handy! 
+The client simulation borrows Reactive Extensions to publish/subscribe to the hardware event model.  I'm very fond of Reactive Extensions as one of the best programming paradigms to capture pub/sub modelling.
 
-Robert C Martins spec is described in his [blog](https://flylib.com/books/en/4.444.1.119/1/)
+The spec is described in Robert C Martins [blog](https://flylib.com/books/en/4.444.1.119/1/)
